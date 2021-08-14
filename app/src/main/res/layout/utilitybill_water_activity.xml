@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:drawableTop="@drawable/bgcardpay"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <EditText
+        android:id="@+id/subscriptionno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/bgsearch"
+        android:drawableLeft="@drawable/subscription"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Subscription No"
+        android:inputType="number"
+         />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bgsearch"
+        android:drawableLeft="@drawable/dollar"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="370dp"
+        android:onClick="onCheckboxClicked"
+        android:text="do you want to save for next time ? " />
+
+    <Button
+        android:id="@+id/waterbllpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="450dp"
+        android:text="pay" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:text="Water Bill"
+        android:textColor="#F3EFEF"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/backtxtt"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:drawableTop="?attr/actionModeCloseDrawable" />
+</RelativeLayout>
